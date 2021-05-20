@@ -7,8 +7,8 @@ package ArrayData::Char::Latin1::Letter;
 
 use Role::Tiny::With;
 with 'ArrayDataRole::Source::LinesInDATA';
-with 'Role::TinyCommons::Collection::FindItem::Iterator';
-with 'Role::TinyCommons::Collection::PickItems::Iterator';
+with 'Role::TinyCommons::Collection::FindItem::Iterator';  # add find_item() and has_item()
+with 'Role::TinyCommons::Collection::PickItems::Iterator'; # add pick_items(), pick_item()
 
 # STATS
 
