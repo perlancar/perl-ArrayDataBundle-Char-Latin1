@@ -7,9 +7,8 @@ package ArrayData::Char::Latin1::Letter;
 
 use Role::Tiny::With;
 with 'ArrayDataRole::Source::LinesInDATA';
-with 'ArrayDataRole::BinarySearch::LinesInHandle';
 with 'Role::TinyCommons::Collection::FindItem::Iterator';
-with 'Role::TinyCommons::Collection::PickItems::RandomSeekLines';
+with 'Role::TinyCommons::Collection::PickItems::Iterator';
 
 # STATS
 
